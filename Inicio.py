@@ -2,7 +2,7 @@ import streamlit as st
 import pinecone
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 import os
 from typing import List
 import time
