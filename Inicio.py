@@ -11,7 +11,7 @@ import time
 
 # Configuración de la página
 st.set_page_config(page_title="PDF Query App", layout="wide")
-st.title("Sistema de Consulta de PDFs con Pinecone")
+st.title("Sistema de Registro y Consulta de PDFs con Pinecone")
 
 # Función para obtener índices de Pinecone
 def get_pinecone_indexes(api_key):
